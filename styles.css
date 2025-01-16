@@ -1,0 +1,73 @@
+/* Full Background Gradient */
+body {
+    background: linear-gradient(to bottom right, #a18cd1, #fbc2eb);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Create Notes Button */
+.create-btn {
+    background: linear-gradient(to right, #6c63ff, #8368ff);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.create-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Note Card Styling */
+.note-card {
+    /* background-color: #fff; */
+    /* border: none; */
+    /* border-radius: 10px; */
+    /* padding: 20px; */
+    position: relative;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.3s ease;
+}
+
+.note-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Textarea Styling */
+.note-input {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    padding: 10px;
+    resize: none;
+    
+}
+
+/* Delete Button */
+.delete-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    color: #dc3545;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.delete-btn:hover {
+    color: #bd2130;
+}
