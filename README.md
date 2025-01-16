@@ -16,7 +16,7 @@ A simple and responsive notes application built using HTML, CSS, JavaScript, and
 ## Screenshots
 
 ### Main Interface:
-![Screenshot of NotesApp](screenshot.png)
+![Screenshot of NotesApp](ss.PNG)
 
 ## Getting Started
 
